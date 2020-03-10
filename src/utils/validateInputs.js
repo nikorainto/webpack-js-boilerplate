@@ -1,3 +1,2 @@
-export const validateInputs = (...input) => {
-  return input.every(num => typeof num === "number" && !isNaN(num));
-};
+export const validateInputs = (...input) =>
+  input.every(num => typeof num === 'number' && !isNaN(num))
