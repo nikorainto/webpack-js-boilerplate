@@ -1,0 +1,11 @@
+$primary: teal;
+$danger: purple;
+@font-face {
+    font-family: OpenSans;
+    src: url('./assets//fonts/OpenSans-Regular.ttf');
+}
+@import "~bootstrap/scss/bootstrap";
+
+html, body {
+    font-family: OpenSans;
+}
